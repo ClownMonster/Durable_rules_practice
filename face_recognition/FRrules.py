@@ -11,6 +11,7 @@ with ruleset('main'):
     #@when_all()
     #def  pngfind(c):
     #    perform_recogintion(c.m.image)
+    #need to define many rules
 
 
 post('main',{ 'image': './images/dhoni.jpg' })
